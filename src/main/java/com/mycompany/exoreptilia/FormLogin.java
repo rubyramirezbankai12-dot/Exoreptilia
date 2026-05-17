@@ -1,13 +1,16 @@
 package com.mycompany.exoreptilia;
 
 import java.awt.Image;
+import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 
 /**
  * @author diana
  */
 public class FormLogin extends javax.swing.JFrame {
     private ControlPantallas Pantallas;
+    FuncionesBD FBD = new FuncionesBD();
     
     public FormLogin(ControlPantallas _Pantallas) {
         this.Pantallas = _Pantallas;
@@ -51,6 +54,11 @@ public class FormLogin extends javax.swing.JFrame {
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, -1, -1));
 
         txtContraseña.setBackground(new java.awt.Color(204, 204, 204));
+        txtContraseña.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtContraseñaKeyPressed(evt);
+            }
+        });
         jPanel1.add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 240, 130, -1));
 
         btnIngresar.setBackground(new java.awt.Color(0, 0, 204));
@@ -79,6 +87,13 @@ public class FormLogin extends javax.swing.JFrame {
         ValidarUsuario();
     }//GEN-LAST:event_btnIngresarActionPerformed
 
+    private void txtContraseñaKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtContraseñaKeyPressed
+        // TODO add your handling code here:
+        if (evt.getKeyCode() == KeyEvent.VK_ENTER){
+            ValidarUsuario();
+        }
+    }//GEN-LAST:event_txtContraseñaKeyPressed
+
     /**
      * @param args the command line arguments
      */
@@ -92,8 +107,12 @@ public class FormLogin extends javax.swing.JFrame {
         usuario = txtUsuario.getText().toLowerCase();
         password = txtContraseña.getText().toLowerCase();
         
-        Pantallas.OcultarPantallas();
-        Pantallas.MostrarFormPrincipal();
+        if (FBD.validarUsuario(usuario, password)){
+            Pantallas.OcultarPantallas();
+            Pantallas.MostrarFormPrincipal();
+        }else{
+            JOptionPane.showMessageDialog(null,"Usuario incorrecto", "Login",0);
+        }
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
