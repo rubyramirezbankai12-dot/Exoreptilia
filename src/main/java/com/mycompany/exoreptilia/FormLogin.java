@@ -28,9 +28,9 @@ public class FormLogin extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         txtUsuario = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        txtContraseña = new javax.swing.JTextField();
         btnIngresar = new javax.swing.JButton();
         txtLogo = new javax.swing.JLabel();
+        txtContraseña = new javax.swing.JPasswordField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -53,14 +53,6 @@ public class FormLogin extends javax.swing.JFrame {
         jLabel3.setText("CONTRASEÑA");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, -1, -1));
 
-        txtContraseña.setBackground(new java.awt.Color(204, 204, 204));
-        txtContraseña.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
-                txtContraseñaKeyPressed(evt);
-            }
-        });
-        jPanel1.add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 240, 130, -1));
-
         btnIngresar.setBackground(new java.awt.Color(0, 0, 204));
         btnIngresar.setForeground(new java.awt.Color(255, 255, 255));
         btnIngresar.setText("Ingresar");
@@ -69,13 +61,20 @@ public class FormLogin extends javax.swing.JFrame {
                 btnIngresarActionPerformed(evt);
             }
         });
-        jPanel1.add(btnIngresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 270, -1, -1));
+        jPanel1.add(btnIngresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 130, -1));
 
-        txtLogo.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\resources\\Logo2.png")); // NOI18N
         txtLogo.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         txtLogo.setMaximumSize(new java.awt.Dimension(300, 395));
         txtLogo.setPreferredSize(new java.awt.Dimension(320, 395));
         jPanel1.add(txtLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, 130, 120));
+
+        txtContraseña.setBackground(new java.awt.Color(204, 204, 204));
+        txtContraseña.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtContraseñaKeyPressed(evt);
+            }
+        });
+        jPanel1.add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 240, 130, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 340, 320));
 
@@ -105,9 +104,15 @@ public class FormLogin extends javax.swing.JFrame {
         String usuario, password;
         
         usuario = txtUsuario.getText().toLowerCase();
-        password = txtContraseña.getText().toLowerCase();
+        //password = txtContraseña.getText().toLowerCase();
+        password = new String(this.txtContraseña.getPassword()).toLowerCase();
         
         if (FBD.validarUsuario(usuario, password)){
+            if (Objetos.objUsuario.Estado.equals("Inactivo")) {
+                JOptionPane.showMessageDialog(null, "Tu cuenta de usuario está inhabilitada, consulta con el Administrador.", "Login", 2);
+                return;
+            }
+            
             Pantallas.OcultarPantallas();
             Pantallas.MostrarFormPrincipal();
         }else{
@@ -121,7 +126,7 @@ public class FormLogin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField txtContraseña;
+    private javax.swing.JPasswordField txtContraseña;
     private javax.swing.JLabel txtLogo;
     private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
