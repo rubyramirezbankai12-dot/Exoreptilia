@@ -55,75 +55,57 @@ public class PanelConsultaClientes extends javax.swing.JPanel {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Registra o Actualiza Cliente");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 860, 20));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Nombre");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Teléfono");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 60, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Dirección");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Correo");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 100, -1, -1));
 
         lbTipoCliente.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        lbTipoCliente.setForeground(new java.awt.Color(0, 0, 0));
         lbTipoCliente.setText("Tipo Cliente");
         jPanel1.add(lbTipoCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, -1, -1));
 
         lbPuntos.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        lbPuntos.setForeground(new java.awt.Color(0, 0, 0));
         lbPuntos.setText("Puntos");
         jPanel1.add(lbPuntos, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 140, -1, -1));
 
         TxtNombre.setBackground(java.awt.SystemColor.menu);
-        TxtNombre.setForeground(new java.awt.Color(0, 0, 0));
         TxtNombre.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtNombre.setCaretColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(TxtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, 230, 30));
 
         TxtTelefono.setBackground(java.awt.SystemColor.menu);
-        TxtTelefono.setForeground(new java.awt.Color(0, 0, 0));
         TxtTelefono.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtTelefono.setCaretColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(TxtTelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 50, 250, 30));
 
         TxtDireccion.setBackground(java.awt.SystemColor.menu);
-        TxtDireccion.setForeground(new java.awt.Color(0, 0, 0));
         TxtDireccion.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtDireccion.setCaretColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(TxtDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 230, 30));
 
         TxtCorreo.setBackground(java.awt.SystemColor.menu);
-        TxtCorreo.setForeground(new java.awt.Color(0, 0, 0));
         TxtCorreo.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtCorreo.setCaretColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(TxtCorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, 250, 30));
 
         CBTipocliente.setBackground(java.awt.SystemColor.menu);
-        CBTipocliente.setForeground(new java.awt.Color(0, 0, 0));
         CBTipocliente.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Confiable", "Frecuente", " " }));
         CBTipocliente.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel1.add(CBTipocliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 230, 30));
 
         TxtPuntos.setBackground(java.awt.SystemColor.menu);
-        TxtPuntos.setForeground(new java.awt.Color(0, 0, 0));
         TxtPuntos.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtPuntos.setCaretColor(new java.awt.Color(0, 0, 0));
         TxtPuntos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TxtPuntosActionPerformed(evt);
@@ -131,8 +113,7 @@ public class PanelConsultaClientes extends javax.swing.JPanel {
         });
         jPanel1.add(TxtPuntos, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 130, 80, 30));
 
-        BtnGuardar.setBackground(new java.awt.Color(255, 255, 255));
-        BtnGuardar.setForeground(new java.awt.Color(0, 0, 0));
+        BtnGuardar.setBackground(new java.awt.Color(153, 153, 153));
         BtnGuardar.setText("Registrar");
         BtnGuardar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -143,8 +124,7 @@ public class PanelConsultaClientes extends javax.swing.JPanel {
         });
         jPanel1.add(BtnGuardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 180, 150, 40));
 
-        BtnCancelar.setBackground(new java.awt.Color(255, 255, 255));
-        BtnCancelar.setForeground(new java.awt.Color(0, 0, 0));
+        BtnCancelar.setBackground(new java.awt.Color(153, 153, 153));
         BtnCancelar.setText("Cancelar");
         BtnCancelar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -155,9 +135,8 @@ public class PanelConsultaClientes extends javax.swing.JPanel {
         });
         jPanel1.add(BtnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 180, 150, 40));
 
-        BtnPantallaPrincipal.setBackground(new java.awt.Color(255, 255, 255));
-        BtnPantallaPrincipal.setForeground(new java.awt.Color(0, 0, 0));
-        BtnPantallaPrincipal.setIcon(new javax.swing.ImageIcon("E:\\_____PROYECTOS\\OTROS\\JAVA\\ExoreptiliaD\\resources\\home24.png")); // NOI18N
+        BtnPantallaPrincipal.setBackground(new java.awt.Color(153, 153, 153));
+        BtnPantallaPrincipal.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\resources\\home24.png")); // NOI18N
         BtnPantallaPrincipal.setText("Volver al inicio");
         BtnPantallaPrincipal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnPantallaPrincipal.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

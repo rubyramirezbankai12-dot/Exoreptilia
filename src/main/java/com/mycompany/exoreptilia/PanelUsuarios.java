@@ -47,7 +47,6 @@ public class PanelUsuarios extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Gestión de Usuarios");
 
@@ -55,73 +54,56 @@ public class PanelUsuarios extends javax.swing.JPanel {
         Panell.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Usuario");
         Panell.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 16, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Nombre");
         Panell.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 57, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Rol");
         Panell.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 98, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Estado");
         Panell.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(403, 16, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Contraseña");
         Panell.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(403, 57, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Contraseña");
         Panell.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(403, 98, -1, -1));
 
         TxtUsuario.setBackground(java.awt.SystemColor.menu);
-        TxtUsuario.setForeground(new java.awt.Color(0, 0, 0));
         TxtUsuario.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtUsuario.setCaretColor(new java.awt.Color(0, 0, 0));
         Panell.add(TxtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 13, 120, 30));
 
         TxtNombre.setBackground(java.awt.SystemColor.menu);
-        TxtNombre.setForeground(new java.awt.Color(0, 0, 0));
         TxtNombre.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtNombre.setCaretColor(new java.awt.Color(0, 0, 0));
         Panell.add(TxtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 54, 300, 30));
 
         CbRol.setBackground(java.awt.SystemColor.menu);
-        CbRol.setForeground(new java.awt.Color(0, 0, 0));
         CbRol.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Administrador", "Cajero" }));
         CbRol.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         Panell.add(CbRol, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 95, 120, 30));
 
         CbEstado.setBackground(java.awt.SystemColor.menu);
-        CbEstado.setForeground(new java.awt.Color(0, 0, 0));
         CbEstado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Activo", "Inactivo" }));
         CbEstado.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         Panell.add(CbEstado, new org.netbeans.lib.awtextra.AbsoluteConstraints(481, 13, 120, 30));
 
         TxtPassword.setBackground(java.awt.SystemColor.menu);
-        TxtPassword.setForeground(new java.awt.Color(0, 0, 0));
         TxtPassword.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtPassword.setCaretColor(new java.awt.Color(0, 0, 0));
         Panell.add(TxtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(481, 54, 120, 30));
 
         TxtPassword2.setBackground(java.awt.SystemColor.menu);
-        TxtPassword2.setForeground(new java.awt.Color(0, 0, 0));
         TxtPassword2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtPassword2.setCaretColor(new java.awt.Color(0, 0, 0));
         Panell.add(TxtPassword2, new org.netbeans.lib.awtextra.AbsoluteConstraints(481, 95, 120, 30));
 
-        BtnRegistrar.setBackground(new java.awt.Color(255, 255, 255));
-        BtnRegistrar.setForeground(new java.awt.Color(0, 0, 0));
+        BtnRegistrar.setBackground(new java.awt.Color(153, 153, 153));
         BtnRegistrar.setText("Registrar");
         BtnRegistrar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnRegistrar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -132,8 +114,7 @@ public class PanelUsuarios extends javax.swing.JPanel {
         });
         Panell.add(BtnRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 10, 150, 40));
 
-        BtnLimpiar.setBackground(new java.awt.Color(255, 255, 255));
-        BtnLimpiar.setForeground(new java.awt.Color(0, 0, 0));
+        BtnLimpiar.setBackground(new java.awt.Color(153, 153, 153));
         BtnLimpiar.setText("Limpiar");
         BtnLimpiar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnLimpiar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -144,8 +125,8 @@ public class PanelUsuarios extends javax.swing.JPanel {
         });
         Panell.add(BtnLimpiar, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 60, 150, 40));
 
-        BtnPantallaPrincipal.setBackground(new java.awt.Color(255, 255, 255));
-        BtnPantallaPrincipal.setForeground(new java.awt.Color(0, 0, 0));
+        BtnPantallaPrincipal.setBackground(new java.awt.Color(153, 153, 153));
+        BtnPantallaPrincipal.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\resources\\home24.png")); // NOI18N
         BtnPantallaPrincipal.setText("Volver al inicio");
         BtnPantallaPrincipal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnPantallaPrincipal.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -157,7 +138,6 @@ public class PanelUsuarios extends javax.swing.JPanel {
         Panell.add(BtnPantallaPrincipal, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 110, 150, 40));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("Usuarios registrados");
         Panell.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 144, 816, -1));

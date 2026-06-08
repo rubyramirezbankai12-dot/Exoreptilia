@@ -63,6 +63,7 @@ public class FormLogin extends javax.swing.JFrame {
         });
         jPanel1.add(btnIngresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 130, -1));
 
+        txtLogo.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\resources\\Logo2.png")); // NOI18N
         txtLogo.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         txtLogo.setMaximumSize(new java.awt.Dimension(300, 395));
         txtLogo.setPreferredSize(new java.awt.Dimension(320, 395));

@@ -60,7 +60,6 @@ public class PanelPedido extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Agregar pedido");
 
@@ -68,24 +67,19 @@ public class PanelPedido extends javax.swing.JPanel {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Datos del pedido");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, 367, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Id Cliente");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 47, -1, -1));
 
         TxtIdCliente.setBackground(java.awt.SystemColor.menu);
-        TxtIdCliente.setForeground(new java.awt.Color(0, 0, 0));
         TxtIdCliente.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtIdCliente.setCaretColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(TxtIdCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 90, 30));
 
-        BtnBuscar.setBackground(new java.awt.Color(255, 255, 255));
-        BtnBuscar.setForeground(new java.awt.Color(0, 0, 0));
+        BtnBuscar.setBackground(new java.awt.Color(153, 153, 153));
         BtnBuscar.setText("Buscar");
         BtnBuscar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnBuscar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -97,40 +91,31 @@ public class PanelPedido extends javax.swing.JPanel {
         jPanel1.add(BtnBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 40, 150, 40));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Nombre");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Id Promoción");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Total del pedido");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, -1, -1));
 
         LbNombreCliente.setBackground(new java.awt.Color(204, 204, 255));
         LbNombreCliente.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        LbNombreCliente.setForeground(new java.awt.Color(0, 0, 0));
         LbNombreCliente.setText("-");
         jPanel1.add(LbNombreCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 170, 220, -1));
 
         TxtTotalPedido.setBackground(java.awt.SystemColor.menu);
-        TxtTotalPedido.setForeground(new java.awt.Color(0, 0, 0));
         TxtTotalPedido.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtTotalPedido.setCaretColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(TxtTotalPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 230, 220, 30));
 
         TxtIdPromocion.setBackground(java.awt.SystemColor.menu);
-        TxtIdPromocion.setForeground(new java.awt.Color(0, 0, 0));
         TxtIdPromocion.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtIdPromocion.setCaretColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(TxtIdPromocion, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 220, 30));
 
-        BtnCalcular.setBackground(new java.awt.Color(255, 255, 255));
-        BtnCalcular.setForeground(new java.awt.Color(0, 0, 0));
+        BtnCalcular.setBackground(new java.awt.Color(153, 153, 153));
         BtnCalcular.setText("Calcular");
         BtnCalcular.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnCalcular.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -142,7 +127,6 @@ public class PanelPedido extends javax.swing.JPanel {
         jPanel1.add(BtnCalcular, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 320, 150, 40));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Importe final");
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 420, -1, -1));
         jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, 367, 10));
@@ -151,13 +135,10 @@ public class PanelPedido extends javax.swing.JPanel {
         TxtImporteFinal.setEditable(false);
         TxtImporteFinal.setBackground(java.awt.SystemColor.menu);
         TxtImporteFinal.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        TxtImporteFinal.setForeground(new java.awt.Color(0, 0, 0));
         TxtImporteFinal.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtImporteFinal.setCaretColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(TxtImporteFinal, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 410, 220, 30));
 
-        BtnRegistrarPedido.setBackground(new java.awt.Color(255, 255, 255));
-        BtnRegistrarPedido.setForeground(new java.awt.Color(0, 0, 0));
+        BtnRegistrarPedido.setBackground(new java.awt.Color(153, 153, 153));
         BtnRegistrarPedido.setText("Registrar Pedido");
         BtnRegistrarPedido.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnRegistrarPedido.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -168,8 +149,7 @@ public class PanelPedido extends javax.swing.JPanel {
         });
         jPanel1.add(BtnRegistrarPedido, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 450, 150, 40));
 
-        BtnLimpiar.setBackground(new java.awt.Color(255, 255, 255));
-        BtnLimpiar.setForeground(new java.awt.Color(0, 0, 0));
+        BtnLimpiar.setBackground(new java.awt.Color(153, 153, 153));
         BtnLimpiar.setText("Limpiar");
         BtnLimpiar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnLimpiar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -181,19 +161,16 @@ public class PanelPedido extends javax.swing.JPanel {
         jPanel1.add(BtnLimpiar, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 90, 150, 40));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Puntos acumulados");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, -1, -1));
 
         LbPuntos.setBackground(new java.awt.Color(204, 204, 255));
         LbPuntos.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        LbPuntos.setForeground(new java.awt.Color(0, 0, 0));
         LbPuntos.setText("-");
         jPanel1.add(LbPuntos, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 200, 220, 20));
 
-        BtnPantallaPrincipal.setBackground(new java.awt.Color(255, 255, 255));
-        BtnPantallaPrincipal.setForeground(new java.awt.Color(0, 0, 0));
-        BtnPantallaPrincipal.setIcon(new javax.swing.ImageIcon("E:\\_____PROYECTOS\\OTROS\\JAVA\\ExoreptiliaD\\resources\\home24.png")); // NOI18N
+        BtnPantallaPrincipal.setBackground(new java.awt.Color(153, 153, 153));
+        BtnPantallaPrincipal.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\resources\\home24.png")); // NOI18N
         BtnPantallaPrincipal.setText("Volver al inicio");
         BtnPantallaPrincipal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnPantallaPrincipal.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -207,7 +184,6 @@ public class PanelPedido extends javax.swing.JPanel {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setText("Promociones disponibles para este cliente");
 

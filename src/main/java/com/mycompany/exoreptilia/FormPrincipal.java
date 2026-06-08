@@ -44,23 +44,22 @@ public class FormPrincipal extends javax.swing.JFrame {
         BtnUsuario = new javax.swing.JButton();
         PanelMenu = new javax.swing.JPanel();
         BtnHistorial = new javax.swing.JButton();
-        BtnClientes = new javax.swing.JButton();
         BtnPromociones = new javax.swing.JButton();
         BtnPedidos = new javax.swing.JButton();
         BtnUsuarios = new javax.swing.JButton();
+        BtnClientes = new javax.swing.JButton();
         PanelPrincipal = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        PanelUsuario.setBackground(new java.awt.Color(106, 60, 135));
-        PanelUsuario.setForeground(new java.awt.Color(0, 0, 0));
+        PanelUsuario.setBackground(new java.awt.Color(102, 102, 102));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(208, 149, 217));
         jLabel1.setText("MENÚ");
 
-        BtnUsuario.setBackground(new java.awt.Color(106, 60, 135));
+        BtnUsuario.setBackground(new java.awt.Color(102, 102, 102));
         BtnUsuario.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
         BtnUsuario.setForeground(new java.awt.Color(208, 149, 217));
         BtnUsuario.setText("USUARIO");
@@ -91,13 +90,12 @@ public class FormPrincipal extends javax.swing.JFrame {
 
         getContentPane().add(PanelUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 60));
 
-        PanelMenu.setBackground(new java.awt.Color(208, 149, 217));
+        PanelMenu.setBackground(new java.awt.Color(102, 102, 102));
         PanelMenu.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        BtnHistorial.setBackground(new java.awt.Color(208, 149, 217));
+        BtnHistorial.setBackground(new java.awt.Color(153, 153, 153));
         BtnHistorial.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        BtnHistorial.setForeground(new java.awt.Color(0, 0, 0));
-        BtnHistorial.setIcon(new javax.swing.ImageIcon("E:\\_____PROYECTOS\\OTROS\\JAVA\\ExoreptiliaD\\src\\main\\java\\com\\mycompany\\exoreptilia\\historial64.png")); // NOI18N
+        BtnHistorial.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\src\\main\\java\\com\\mycompany\\exoreptilia\\historial64.png")); // NOI18N
         BtnHistorial.setText("HISTORIAL        ");
         BtnHistorial.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         BtnHistorial.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -117,32 +115,9 @@ public class FormPrincipal extends javax.swing.JFrame {
         });
         PanelMenu.add(BtnHistorial, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 240, 220, 80));
 
-        BtnClientes.setBackground(new java.awt.Color(208, 149, 217));
-        BtnClientes.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        BtnClientes.setForeground(new java.awt.Color(0, 0, 0));
-        BtnClientes.setIcon(new javax.swing.ImageIcon("E:\\_____PROYECTOS\\OTROS\\JAVA\\ExoreptiliaD\\src\\main\\java\\com\\mycompany\\exoreptilia\\client64.png")); // NOI18N
-        BtnClientes.setText("CLIENTES           ");
-        BtnClientes.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        BtnClientes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        BtnClientes.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                BtnClientesMouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                BtnClientesMouseExited(evt);
-            }
-        });
-        BtnClientes.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnClientesActionPerformed(evt);
-            }
-        });
-        PanelMenu.add(BtnClientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 80));
-
-        BtnPromociones.setBackground(new java.awt.Color(208, 149, 217));
+        BtnPromociones.setBackground(new java.awt.Color(153, 153, 153));
         BtnPromociones.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        BtnPromociones.setForeground(new java.awt.Color(0, 0, 0));
-        BtnPromociones.setIcon(new javax.swing.ImageIcon("E:\\_____PROYECTOS\\OTROS\\JAVA\\ExoreptiliaD\\src\\main\\java\\com\\mycompany\\exoreptilia\\oferta64.png")); // NOI18N
+        BtnPromociones.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\src\\main\\java\\com\\mycompany\\exoreptilia\\oferta64.png")); // NOI18N
         BtnPromociones.setText("PROMOCIONES");
         BtnPromociones.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         BtnPromociones.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -162,10 +137,9 @@ public class FormPrincipal extends javax.swing.JFrame {
         });
         PanelMenu.add(BtnPromociones, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 220, 80));
 
-        BtnPedidos.setBackground(new java.awt.Color(208, 149, 217));
+        BtnPedidos.setBackground(new java.awt.Color(153, 153, 153));
         BtnPedidos.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        BtnPedidos.setForeground(new java.awt.Color(0, 0, 0));
-        BtnPedidos.setIcon(new javax.swing.ImageIcon("E:\\_____PROYECTOS\\OTROS\\JAVA\\ExoreptiliaD\\src\\main\\java\\com\\mycompany\\exoreptilia\\compras64.png")); // NOI18N
+        BtnPedidos.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\src\\main\\java\\com\\mycompany\\exoreptilia\\compras64.png")); // NOI18N
         BtnPedidos.setText("PEDIDOS            ");
         BtnPedidos.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         BtnPedidos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -185,10 +159,9 @@ public class FormPrincipal extends javax.swing.JFrame {
         });
         PanelMenu.add(BtnPedidos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 160, 220, 80));
 
-        BtnUsuarios.setBackground(new java.awt.Color(208, 149, 217));
+        BtnUsuarios.setBackground(new java.awt.Color(153, 153, 153));
         BtnUsuarios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        BtnUsuarios.setForeground(new java.awt.Color(0, 0, 0));
-        BtnUsuarios.setIcon(new javax.swing.ImageIcon("E:\\_____PROYECTOS\\OTROS\\JAVA\\ExoreptiliaD\\src\\main\\java\\com\\mycompany\\exoreptilia\\admin64.png")); // NOI18N
+        BtnUsuarios.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\src\\main\\java\\com\\mycompany\\exoreptilia\\admin64.png")); // NOI18N
         BtnUsuarios.setText("USUARIOS");
         BtnUsuarios.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         BtnUsuarios.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -207,6 +180,27 @@ public class FormPrincipal extends javax.swing.JFrame {
             }
         });
         PanelMenu.add(BtnUsuarios, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 560, 220, 80));
+
+        BtnClientes.setBackground(new java.awt.Color(153, 153, 153));
+        BtnClientes.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        BtnClientes.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\src\\main\\java\\com\\mycompany\\exoreptilia\\client64.png")); // NOI18N
+        BtnClientes.setText("CLIENTES           ");
+        BtnClientes.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        BtnClientes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        BtnClientes.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                BtnClientesMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                BtnClientesMouseExited(evt);
+            }
+        });
+        BtnClientes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnClientesActionPerformed(evt);
+            }
+        });
+        PanelMenu.add(BtnClientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 80));
 
         getContentPane().add(PanelMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 220, 640));
 

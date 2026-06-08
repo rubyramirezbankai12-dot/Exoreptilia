@@ -43,57 +43,44 @@ public class PanelRegistraPromocion extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Registrar Promoción");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 827, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Nombre");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Descuento (%)");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Puntos Necesarios");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 60, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Estado");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 60, -1, -1));
 
         TxtNombrePromocion.setBackground(java.awt.SystemColor.menu);
-        TxtNombrePromocion.setForeground(new java.awt.Color(0, 0, 0));
         TxtNombrePromocion.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtNombrePromocion.setCaretColor(new java.awt.Color(0, 0, 0));
         add(TxtNombrePromocion, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, 250, 30));
 
         TxtDescuento.setBackground(java.awt.SystemColor.menu);
-        TxtDescuento.setForeground(new java.awt.Color(0, 0, 0));
         TxtDescuento.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtDescuento.setCaretColor(new java.awt.Color(0, 0, 0));
         add(TxtDescuento, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 150, 30));
 
         TxtPuntos.setBackground(java.awt.SystemColor.menu);
-        TxtPuntos.setForeground(new java.awt.Color(0, 0, 0));
         TxtPuntos.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        TxtPuntos.setCaretColor(new java.awt.Color(0, 0, 0));
         add(TxtPuntos, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 50, 76, 30));
 
         CBEstado.setBackground(java.awt.SystemColor.menu);
-        CBEstado.setForeground(new java.awt.Color(0, 0, 0));
         CBEstado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Activo", "Inactivo" }));
         CBEstado.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         add(CBEstado, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 50, 161, 30));
 
-        BtnGuardar.setBackground(new java.awt.Color(255, 255, 255));
-        BtnGuardar.setForeground(new java.awt.Color(0, 0, 0));
+        BtnGuardar.setBackground(new java.awt.Color(153, 153, 153));
         BtnGuardar.setText("Registrar");
         BtnGuardar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -124,8 +111,7 @@ public class PanelRegistraPromocion extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 198, 840, 420));
 
-        BtnCancelar.setBackground(new java.awt.Color(255, 255, 255));
-        BtnCancelar.setForeground(new java.awt.Color(0, 0, 0));
+        BtnCancelar.setBackground(new java.awt.Color(153, 153, 153));
         BtnCancelar.setText("Cancelar");
         BtnCancelar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -136,9 +122,8 @@ public class PanelRegistraPromocion extends javax.swing.JPanel {
         });
         add(BtnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 140, 150, 40));
 
-        BtnPantallaPrincipal.setBackground(new java.awt.Color(255, 255, 255));
-        BtnPantallaPrincipal.setForeground(new java.awt.Color(0, 0, 0));
-        BtnPantallaPrincipal.setIcon(new javax.swing.ImageIcon("E:\\_____PROYECTOS\\OTROS\\JAVA\\ExoreptiliaD\\resources\\home24.png")); // NOI18N
+        BtnPantallaPrincipal.setBackground(new java.awt.Color(153, 153, 153));
+        BtnPantallaPrincipal.setIcon(new javax.swing.ImageIcon("C:\\Users\\diana\\Documents\\NetBeansProjects\\Exoreptilia\\resources\\home24.png")); // NOI18N
         BtnPantallaPrincipal.setText("Volver al inicio");
         BtnPantallaPrincipal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         BtnPantallaPrincipal.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
